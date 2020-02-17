@@ -1,0 +1,319 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cynosure2020</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo-small1.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/form.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo-small1.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">home</a></li>
+                                            <li><a href="events.html">Events</a></li>                                          
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                           
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+     <!-- bradcam_area -->
+     <div class="bradcam_area">
+        <div class="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay">
+              <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                       <div class="col-xl-12">
+                          <div class="bradcam_text text-center">
+                                <img  class="wow fadeInRight img-fluid" data-wow-duration="1s" data-wow-delay=".3s" src="img/logo.png" style="width:800px;height:300px; padding: 0px;" alt="">
+                          </div>
+                       </div>
+                    </div>
+              </div>
+           </div>
+     </div>
+    <!-- bradcam_area end -->
+
+    <!-- Events_area_start  -->
+    <div class="performar_area black_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title mb-80">
+                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Events</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/events/IMG-20190307-WA0046.jpg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                <div class="open-btn">
+                                    <button class="open-button" onclick="openForm()"><strong>Register</strong></button>
+                                  </div>
+                                  <!-- <div class="login-popup"> -->
+                                    <div class="form-popup" id="popupForm">
+                                      <form action="php/registration.php" class="form-container" method="post">
+                                        <h2>Event Registration</h2>
+                                        <label for="Name">
+                                        Name
+                                        </label>
+                                        <input type="text" id="Name" placeholder="Your Name" name="Name" required>
+                                        <label for="SecondName">
+                                            Second person Name(if applicable)
+                                            </label>
+                                            <input type="text" id="SecondName" placeholder="Name" name="SecondName">
+                                        <label for="college">
+                                        College
+                                        </label>
+                                        <input type="text" id="college" placeholder="Your college" name="college" required>
+                                        <label for="Mobile">
+                                            Mobile
+                                            </label>
+                                            <input type="tel" id="Mobile" placeholder="Mobile" name="Mobile" required>
+                                            <label for="E-mail">
+                                                E-mail
+                                                </label>
+                                                <input type="email" id="E-mail" placeholder="E-mail" name="E-mail" >
+                                        <input type="submit" value="Register" class="btn">
+                                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                                      </form>
+                                    </div>
+                                  <!-- </div> -->
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/events/IMG-20190307-WA0042.jpg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                <div class="open-btn">
+                                    <button class="open-button" onclick="openForm()"><strong>Register</strong></button>
+                                  </div>
+                            </div>
+                        </div>
+                            
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                <div  data-tilt class="thumb">
+                                    <img src="img/events/IMG-20190307-WA0048.jpg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <div class="open-btn">
+                                        <button class="open-button" onclick="openForm()"><strong>Register</strong></button>
+                                      </div>                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div   class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/events/IMG-20190307-WA0049.jpg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <div class="open-btn">
+                                        <button class="open-button" onclick="openForm()"><strong>Register</strong></button>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Events_area_end  -->
+
+
+    <!-- map_area_start  -->
+    <div class="map_area">
+        <div id="map" style="height: 600px; position: relative; overflow: hidden;">
+            <img class="img-fluid" src="img/map.png">
+        </div>
+        
+        <div class="location_information black_bg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+            <h3>Cynosure 2020</h3>
+            <div class="info_wrap">
+                <div class="single_info">
+                    <span>Venue:</span>
+                    <p>Computer Science Department, Hansraj College</p>
+                </div>
+                <div class="single_info">
+                    <span>Phone:-</span><br>
+                    <p>Akshat Jain(+91 9027176221)</p><br>
+                    <p>Jyoti Srivastav(+91 9643699664)</p>
+                </div>
+                <div class="single_info">
+                    <span>Email:</span>
+                    <p>hrccsd@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- map_area_end  -->
+
+    <!-- brand_area_start  -->
+    <div class="brand_area black_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-80">
+                        <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Sponsor Logos</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="brand_wrap">
+                        <div class="brand_active owl-carousel">
+                            <div class="single_brand text-center">
+                                <img src="img/brand/dubeat.png" alt="">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/DUexpress.png" alt="">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/DUupdate.png" alt="">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/4.png" alt="">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/5.png" alt="">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/1.png" alt="">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- brand_area_end  -->
+    <!-- footer_start  -->
+    <footer class="footer">
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Ordinateur <i class="fa fa-heart-o" aria-hidden="true">Computer Science Department | Hansraj College.</i> 
+                        </p>
+                        <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">Made with<i class="fa fa-heart-o" aria-hidden="true"> by<a href="https://www.linkedin.com/in/lovish-kumar-prajapati-b89643193">Lovish Prajapati</a></i> </p>
+                        <a href="https://www.facebook.com/ordinateur.hrc.official/"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=1e2a8m2cd6xwy&utm_content=cd438tz"><i class="fa fa-instagram" style="font-size:36px;padding-left: 4px;"></i></a>                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    <!-- footer_end  -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/tilt.jquery.js"></script>
+    <script src="js/plugins.js"></script>
+
+
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script>
+        function openForm() {
+          document.getElementById("popupForm").style.display="block";
+        }
+        
+        function closeForm() {
+          document.getElementById("popupForm").style.display="none";
+        }
+      </script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
